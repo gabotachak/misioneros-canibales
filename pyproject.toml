@@ -1,0 +1,20 @@
+[project]
+name = "misioneros-canibales"
+version = "0.1.0"
+description = "Agente para el acertijo de Misioneros y Caníbales"
+authors = [
+    {name = "Gabriel Andres Anzola Tachak"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "playwright (>=1.58.0,<2.0.0)",
+    "opencv-python (>=4.13.0.92,<5.0.0.0)",
+    "pillow (>=12.1.1,<13.0.0)",
+    "numpy (>=2.4.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
